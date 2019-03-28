@@ -35,6 +35,17 @@ namespace FlightManagement.Flights
 			}
 		}
 
+		/// <summary>
+		/// Add a flight
+		/// </summary>
+		/// <param name="flight"></param>
+		public void AddFlight(Flight flight)
+		{
+			_flights.Add(flight);
+		}
+
+		
+
 		#region [Sorting and Filtering]
 		public List<Flight> Sort(string PropertyName,bool desc)
 		{

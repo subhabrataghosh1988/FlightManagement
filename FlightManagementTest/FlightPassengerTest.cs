@@ -20,7 +20,7 @@ namespace FlightManagementTest
 			var flight = new Flight(airline);
 			flight.AddPassenger("AIPQN", "Subha", "Ghosh", "subhabrata.ghosh@gmail.com", "A", true, null);
 			Assert.AreEqual(flight.PassengerCount, 1);
-		}'
+		}
 
 
 		[TestMethod]
